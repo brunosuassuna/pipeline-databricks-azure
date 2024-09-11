@@ -1,0 +1,9 @@
+{
+	"name": "databricks-fack",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "30c16f73-9eb2-4390-b1cf-9b723fa7252a",
+		"tenantId": "38ae2f02-5710-4e12-80bb-83600c3fdf1e"
+	}
+}
