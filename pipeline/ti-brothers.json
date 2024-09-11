@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/bruno.suassuna@cs.unipe.edu.br/pipeline-databricks-azure/Notebooks/inbound_to_bronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_ADF_link",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "ingestao-camada-silver",
@@ -33,7 +40,11 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"linkedServiceName": {
+					"referenceName": "databricks_ADF_link",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
